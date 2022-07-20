@@ -35,8 +35,8 @@ keywords = ["XAI", "LRP", "Deep Taylor",]
 python = ">=3.6,<3.11"
 # tensorflow = "^2.6"
 future = "^0.18.2"
-numpy = "^1.22"
-matplotlib = "^3.5.1"
+# numpy = "^1.22"
+# matplotlib = "^3.5.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.0"
