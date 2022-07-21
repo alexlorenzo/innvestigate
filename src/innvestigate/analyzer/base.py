@@ -18,8 +18,8 @@ import warnings
 
 from .. import layers as ilayers
 from .. import utils as iutils
-from ..utils.backend import checks as kchecks
-from ..utils.backend import graph as kgraph
+from ..backend import checks as kchecks
+from ..backend import graph as kgraph
 
 
 __all__ = [

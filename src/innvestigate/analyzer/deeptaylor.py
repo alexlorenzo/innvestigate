@@ -14,7 +14,7 @@ import keras.models
 
 from . import base
 from .relevance_based import relevance_rule as lrp_rules
-from ..utils.backend import checks as kchecks
+from ..backend import checks as kchecks
 
 
 __all__ = [
