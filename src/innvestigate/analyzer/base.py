@@ -9,15 +9,16 @@ import six
 ###############################################################################
 
 
-import keras.backend as K
-import keras.layers
-import keras.models
+import tensorflow.keras.backend as K
+import tensorflow.keras.layers
+import tensorflow.keras.models
 import numpy as np
 import warnings
 
 
 from .. import layers as ilayers
 from .. import utils as iutils
+# import ..backend as iutils
 from ..backend import checks as kchecks
 from ..backend import graph as kgraph
 

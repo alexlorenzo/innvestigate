@@ -8,8 +8,8 @@ from __future__ import\
 ###############################################################################
 
 
-import keras.layers
-import keras.models
+import tensorflow.keras.layers
+import tensorflow.keras.models
 
 
 from . import base
