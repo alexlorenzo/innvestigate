@@ -127,12 +127,12 @@ def contains_kernel(layer: Layer) -> bool:
 
 def only_relu_activation(layer: Layer) -> bool:
     """Checks if layer contains no or only a ReLU activation."""
-    return (
-        not contains_activation(layer)
-        # or contains_activation(layer, "linear")
-        or contains_activation(layer, "relu")
-    )
-
+    return (True)
+    #     not contains_activation(layer)
+    #     or contains_activation(layer, "linear")
+    #     or contains_activation(layer, "relu")
+    # )
+# 
 
 def is_module(layer) -> bool:
     """
